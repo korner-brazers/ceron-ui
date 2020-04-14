@@ -1,0 +1,99 @@
+@import "utils";
+
+
+@mixin widthColumn($columns, $media) {
+	$one: 100 / $columns;
+
+	@for $i from 1 through $columns {
+		&-#{$i}_#{$columns}#{$media} {
+			width:  $one * $i + %;
+		}
+	}
+
+}
+
+@mixin widthMove($columns, $media) {
+	$one: 100 / $columns;
+
+
+	@for $i from 1 through ($columns - 1) {
+		@for $a from 1 through ($columns - $i) {
+			.cn-w-#{$a}_#{$columns}#{$media}.cn-move-#{$i}{
+				margin-left:  $one * $i + %;
+			}
+		}
+	}
+}
+
+@mixin widthMove2($columns, $media) {
+	$one: 100 / $columns;
+
+	.cn-move-0_#{$columns}#{$media}{
+		margin-left:  0%;
+	}
+
+	@for $i from 1 through ($columns - 1) {
+		
+		.cn-move-#{$i}_#{$columns}#{$media}{
+			margin-left:  $one * $i + %;
+		}
+		
+	}
+}
+
+@mixin widthValue($media) {
+	@for $i from 1 through 20 {
+		$prx: $i * 5;
+		$wid: $i * 5 + %;
+
+		&-#{$prx}#{$media} {
+			width:  $wid;
+		}
+	}
+
+
+
+	@for $i from 3 through 12 {
+		@include widthColumn($i,$media);
+	}
+
+
+	&-auto#{$media} {
+		width:  auto;
+	}
+
+	&-expand#{$media} {
+		flex: 1;
+	}
+}
+
+@mixin widthPercent($media) {
+	@for $i from 0 through 20 {
+		$prx: $i * 5;
+		$wid: $i * 5 + %;
+
+		&-#{$prx}#{$media} {
+			width:  $wid;
+		}
+	}
+}
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+
+		@for $i from 1 through 12 {
+			@include widthMove2($i,'Mx_#{$break}');
+		}
+
+		.cn-w{
+			@include widthValue('Mx_#{$break}');
+		}
+
+		.cn-wp{
+			@include widthPercent('Mx_#{$break}');
+		}
+
+	}
+}

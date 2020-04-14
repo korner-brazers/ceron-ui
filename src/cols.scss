@@ -1,0 +1,80 @@
+@import "utils";
+
+
+
+@mixin colsGutter($name,$size, $media) {
+	&{
+		&-a-#{$name}#{$media}{
+			> *{
+				padding: to-rem($size);
+			}
+
+			@at-root &{
+				margin: to-rem(-$size);
+			}
+		}
+
+		&-h-#{$name}#{$media}{
+			> *{
+				padding-left: to-rem($size);
+				padding-right: to-rem($size);
+			}
+
+			@at-root &{
+				margin-left: to-rem(-$size);
+				margin-right: to-rem(-$size);
+			}
+		}
+		&-v-#{$name}#{$media}{
+			> *{
+				padding-top: to-rem($size);
+				padding-bottom: to-rem($size);
+			}
+
+			@at-root &{
+				margin-top: to-rem(-$size);
+				margin-bottom: to-rem(-$size);
+			}
+		}
+	}
+}
+
+
+
+.cn-cols{
+	&-row{
+		display: flex;
+		flex-wrap: wrap;
+
+		> *{
+			max-width: 100%;
+			width: 100%;
+		}
+	}
+
+	&-same{
+		> * {
+			display: flex;
+
+			> *{
+				flex-grow: 1;
+			}
+		}
+	}
+}
+
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		.cn-gutter{
+			@include colsGutter(0, 0, 'Mx_#{$break}');
+			@include colsGutter(10, 5, 'Mx_#{$break}');
+			@include colsGutter(20, 10, 'Mx_#{$break}');
+			@include colsGutter(30, 15, 'Mx_#{$break}');
+			@include colsGutter(40, 20, 'Mx_#{$break}');
+			@include colsGutter(50, 25, 'Mx_#{$break}'); 
+		}
+	}
+}

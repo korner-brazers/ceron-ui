@@ -1,0 +1,39 @@
+.cn-text > * h1, .cn-text > * h2, .cn-text > * h3, .cn-text > * h4, .cn-text > * h5, .cn-text > * h6 {
+  font-size: inherit; }
+
+.cn-text > * {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.2rem; }
+
+.cn-text > ul,
+.cn-text > ol {
+  list-style: none; }
+
+.cn-text > h1 {
+  font-size: 3rem; }
+
+.cn-text > h2 {
+  font-size: 2.4rem; }
+
+.cn-text > h3 {
+  font-size: 1.6rem; }
+
+.cn-text > h4 {
+  font-size: 1rem; }
+
+.cn-text > h5 {
+  font-size: 0.8rem; }
+
+.cn-text > h6 {
+  font-size: 0.6rem; }
+
+.cn-text > hr {
+  border: 0;
+  border-top: 1px solid #ddd; }
+
+.cn-text > blockquote > footer {
+  margin-top: 0.8rem; }
+
+.cn-text > img {
+  max-width: 100%; }

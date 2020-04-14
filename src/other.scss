@@ -1,0 +1,48 @@
+@import "utils";
+
+
+
+
+@mixin position($media) {
+	&-sc#{$media}{
+		position: static;
+	}
+	&-ae#{$media}{
+		position: absolute;
+	}
+	&-re#{$media}{
+		position: relative;
+	}
+	&-fd#{$media}{
+		position: fixed;
+	}
+}
+
+@mixin overflow($media) {
+	&-it#{$media}{
+		overflow: inherit;
+	}
+	&-hn#{$media}{
+		overflow: hidden;
+	}
+	&-sl#{$media}{
+		overflow: scroll;
+	}
+	&-ao#{$media}{
+		overflow: auto;
+	}
+}
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		.cn-pn{
+			@include position('Mx_#{$break}');
+		}
+
+		.cn-ow{
+			@include overflow('Mx_#{$break}');
+		}
+	}
+}

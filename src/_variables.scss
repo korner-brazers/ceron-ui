@@ -1,0 +1,27 @@
+$spacer: 5;
+$spacer_em: $spacer / 16;
+
+$breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+) !default;
+
+$breakpoints_min_max: (
+	"al" null null,
+	"xl" 1200px 1450px,
+	"lg" 992px 1199px,
+	"md" 768px 991px,
+	"sm" 576px 767px,
+	"xs" 0 575px
+) !default;
+
+$breakpoints_min_max_reverce: (
+	"xl" 1200px null,
+	"lg" 992px 1199px,
+	"md" 768px 991px,
+	"sm" 576px 767px,
+	"xs" 0 575px
+) !default;

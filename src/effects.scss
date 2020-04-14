@@ -1,0 +1,34 @@
+@import "utils";
+
+@mixin opacity($media) {
+	@for $i from 0 through 20 {
+		$w: $i * 5;
+
+		&-#{$w}#{$media}{
+			opacity: $w * 0.01 !important;
+		}
+	}
+}
+
+@mixin transition($media) {
+	@for $i from 1 through 5 {
+		$w: $i * 200;
+
+		&-#{$w}#{$media}{
+			transition: all $w + ms;
+		}
+	}
+}
+
+.cn-tr{
+	@include transition(null);
+}
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		.cn-op{
+			@include opacity('Mx_#{$break}');
+		}
+	}
+}

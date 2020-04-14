@@ -1,0 +1,187 @@
+@import "utils";
+
+
+@mixin align($media) {
+	&-jc{
+		&-start#{$media}{
+			justify-content: flex-start;
+		}
+		&-center#{$media}{
+			justify-content: center;
+		}
+		&-end#{$media}{
+			justify-content: flex-end;
+		}
+		&-around#{$media}{
+			justify-content: space-around;
+		}
+		&-between#{$media}{
+			justify-content: space-between;
+		}
+		&-evenly#{$media}{
+			justify-content:evenly;
+		}
+	}
+
+	&-ai{
+		&-start{
+			&#{$media}{
+				align-items: flex-start;
+			}
+		}
+		&-center{
+			&#{$media}{
+				align-items: center;
+			}
+		}
+		&-end{
+			&#{$media}{
+				align-items: flex-end;
+			}
+		}
+		&-baseline{
+			&#{$media}{
+				align-items: baseline;
+			}
+		}
+		&-stretch{
+			&#{$media}{
+				align-items: stretch;
+			}
+		}
+
+		&-self{
+			&-stretch#{$media}{
+				align-self: stretch;
+			}
+			&-baseline#{$media}{
+				align-self: baseline;
+			}
+			&-end#{$media}{
+				align-self: flex-end;
+			}
+			&-center#{$media}{
+				align-self: center;
+			}
+			&-start#{$media}{
+				align-self: flex-start;
+			}
+		}
+	}
+}
+
+@mixin flexDirection($media) {
+	
+	&-row#{$media}{
+		flex-direction: row;
+	}
+
+	&-rowrev#{$media}{
+		flex-direction: row-reverse;
+	}
+
+	&-col#{$media}{
+		flex-direction: column;
+	}
+
+	&-colrev#{$media}{
+		flex-direction: column-reverse;
+	}
+
+}
+
+@mixin flexWrap($media) {
+	
+	&-wr#{$media}{
+		flex-wrap: wrap;
+	}
+
+	&-no#{$media}{
+		flex-wrap: nowrap;
+	}
+}
+
+@mixin flexGrow($media) {
+	
+	&-0#{$media}{
+		flex-grow: 0;
+	}
+
+	&-1#{$media}{
+		flex-grow: 1;
+	}
+}
+
+
+@mixin flexShrink($media) {
+	
+	&-0#{$media}{
+		flex-shrink: 0;
+	}
+
+	&-1#{$media}{
+		flex-shrink: 1;
+	}
+}
+
+@mixin flexFlex($media) {
+	
+	&-0#{$media}{
+		flex: 0;
+	}
+
+	&-1#{$media}{
+		flex: 1;
+	}
+}
+
+@mixin flexOrder($media) {
+	
+	&-first#{$media}{
+		order: -1;
+	}
+
+	&-last#{$media}{
+		order: 99;
+	}
+
+	@for $i from 0 through 10 {
+		&-#{$i}#{$media}{
+			order: $i;
+		}
+	}
+}
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		.cn{
+			@include align('Mx_#{$break}');
+		}
+
+		.cn-fd{
+			@include flexDirection('Mx_#{$break}');
+		}
+
+		.cn-fw{
+			@include flexWrap('Mx_#{$break}');
+		}
+
+		.cn-gr{
+			@include flexGrow('Mx_#{$break}');
+		}
+
+		.cn-sh{
+			@include flexShrink('Mx_#{$break}');
+		}
+
+		.cn-fx{
+			@include flexFlex('Mx_#{$break}');
+		}
+
+		.cn-ord{
+			@include flexOrder('Mx_#{$break}');
+		}
+	}
+}

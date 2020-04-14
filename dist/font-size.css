@@ -1,0 +1,477 @@
+.cn-fs-5 {
+  font-size: 0.3125rem !important; }
+
+.cn-fs-6 {
+  font-size: 0.375rem !important; }
+
+.cn-fs-7 {
+  font-size: 0.4375rem !important; }
+
+.cn-fs-8 {
+  font-size: 0.5rem !important; }
+
+.cn-fs-9 {
+  font-size: 0.5625rem !important; }
+
+.cn-fs-10 {
+  font-size: 0.625rem !important; }
+
+.cn-fs-11 {
+  font-size: 0.6875rem !important; }
+
+.cn-fs-12 {
+  font-size: 0.75rem !important; }
+
+.cn-fs-13 {
+  font-size: 0.8125rem !important; }
+
+.cn-fs-14 {
+  font-size: 0.875rem !important; }
+
+.cn-fs-15 {
+  font-size: 0.9375rem !important; }
+
+.cn-fs-16 {
+  font-size: 1rem !important; }
+
+.cn-fs-17 {
+  font-size: 1.0625rem !important; }
+
+.cn-fs-18 {
+  font-size: 1.125rem !important; }
+
+.cn-fs-19 {
+  font-size: 1.1875rem !important; }
+
+.cn-fs-20 {
+  font-size: 1.25rem !important; }
+
+.cn-fs-21 {
+  font-size: 1.3125rem !important; }
+
+.cn-fs-22 {
+  font-size: 1.375rem !important; }
+
+.cn-fs-23 {
+  font-size: 1.4375rem !important; }
+
+.cn-fs-24 {
+  font-size: 1.5rem !important; }
+
+.cn-fs-25 {
+  font-size: 1.5625rem !important; }
+
+.cn-fs-26 {
+  font-size: 1.625rem !important; }
+
+.cn-fs-27 {
+  font-size: 1.6875rem !important; }
+
+.cn-fs-28 {
+  font-size: 1.75rem !important; }
+
+.cn-fs-29 {
+  font-size: 1.8125rem !important; }
+
+.cn-fs-30 {
+  font-size: 1.875rem !important; }
+
+.cn-fs-31 {
+  font-size: 1.9375rem !important; }
+
+.cn-fs-32 {
+  font-size: 2rem !important; }
+
+.cn-fs-33 {
+  font-size: 2.0625rem !important; }
+
+.cn-fs-34 {
+  font-size: 2.125rem !important; }
+
+.cn-fs-35 {
+  font-size: 2.1875rem !important; }
+
+.cn-fs-36 {
+  font-size: 2.25rem !important; }
+
+.cn-fs-37 {
+  font-size: 2.3125rem !important; }
+
+.cn-fs-38 {
+  font-size: 2.375rem !important; }
+
+.cn-fs-39 {
+  font-size: 2.4375rem !important; }
+
+.cn-fs-40 {
+  font-size: 2.5rem !important; }
+
+@media (max-width: 1450px) {
+  .cn-fs-5--xl {
+    font-size: 0.3125rem !important; }
+  .cn-fs-6--xl {
+    font-size: 0.375rem !important; }
+  .cn-fs-7--xl {
+    font-size: 0.4375rem !important; }
+  .cn-fs-8--xl {
+    font-size: 0.5rem !important; }
+  .cn-fs-9--xl {
+    font-size: 0.5625rem !important; }
+  .cn-fs-10--xl {
+    font-size: 0.625rem !important; }
+  .cn-fs-11--xl {
+    font-size: 0.6875rem !important; }
+  .cn-fs-12--xl {
+    font-size: 0.75rem !important; }
+  .cn-fs-13--xl {
+    font-size: 0.8125rem !important; }
+  .cn-fs-14--xl {
+    font-size: 0.875rem !important; }
+  .cn-fs-15--xl {
+    font-size: 0.9375rem !important; }
+  .cn-fs-16--xl {
+    font-size: 1rem !important; }
+  .cn-fs-17--xl {
+    font-size: 1.0625rem !important; }
+  .cn-fs-18--xl {
+    font-size: 1.125rem !important; }
+  .cn-fs-19--xl {
+    font-size: 1.1875rem !important; }
+  .cn-fs-20--xl {
+    font-size: 1.25rem !important; }
+  .cn-fs-21--xl {
+    font-size: 1.3125rem !important; }
+  .cn-fs-22--xl {
+    font-size: 1.375rem !important; }
+  .cn-fs-23--xl {
+    font-size: 1.4375rem !important; }
+  .cn-fs-24--xl {
+    font-size: 1.5rem !important; }
+  .cn-fs-25--xl {
+    font-size: 1.5625rem !important; }
+  .cn-fs-26--xl {
+    font-size: 1.625rem !important; }
+  .cn-fs-27--xl {
+    font-size: 1.6875rem !important; }
+  .cn-fs-28--xl {
+    font-size: 1.75rem !important; }
+  .cn-fs-29--xl {
+    font-size: 1.8125rem !important; }
+  .cn-fs-30--xl {
+    font-size: 1.875rem !important; }
+  .cn-fs-31--xl {
+    font-size: 1.9375rem !important; }
+  .cn-fs-32--xl {
+    font-size: 2rem !important; }
+  .cn-fs-33--xl {
+    font-size: 2.0625rem !important; }
+  .cn-fs-34--xl {
+    font-size: 2.125rem !important; }
+  .cn-fs-35--xl {
+    font-size: 2.1875rem !important; }
+  .cn-fs-36--xl {
+    font-size: 2.25rem !important; }
+  .cn-fs-37--xl {
+    font-size: 2.3125rem !important; }
+  .cn-fs-38--xl {
+    font-size: 2.375rem !important; }
+  .cn-fs-39--xl {
+    font-size: 2.4375rem !important; }
+  .cn-fs-40--xl {
+    font-size: 2.5rem !important; } }
+
+@media (max-width: 1199px) {
+  .cn-fs-5--lg {
+    font-size: 0.3125rem !important; }
+  .cn-fs-6--lg {
+    font-size: 0.375rem !important; }
+  .cn-fs-7--lg {
+    font-size: 0.4375rem !important; }
+  .cn-fs-8--lg {
+    font-size: 0.5rem !important; }
+  .cn-fs-9--lg {
+    font-size: 0.5625rem !important; }
+  .cn-fs-10--lg {
+    font-size: 0.625rem !important; }
+  .cn-fs-11--lg {
+    font-size: 0.6875rem !important; }
+  .cn-fs-12--lg {
+    font-size: 0.75rem !important; }
+  .cn-fs-13--lg {
+    font-size: 0.8125rem !important; }
+  .cn-fs-14--lg {
+    font-size: 0.875rem !important; }
+  .cn-fs-15--lg {
+    font-size: 0.9375rem !important; }
+  .cn-fs-16--lg {
+    font-size: 1rem !important; }
+  .cn-fs-17--lg {
+    font-size: 1.0625rem !important; }
+  .cn-fs-18--lg {
+    font-size: 1.125rem !important; }
+  .cn-fs-19--lg {
+    font-size: 1.1875rem !important; }
+  .cn-fs-20--lg {
+    font-size: 1.25rem !important; }
+  .cn-fs-21--lg {
+    font-size: 1.3125rem !important; }
+  .cn-fs-22--lg {
+    font-size: 1.375rem !important; }
+  .cn-fs-23--lg {
+    font-size: 1.4375rem !important; }
+  .cn-fs-24--lg {
+    font-size: 1.5rem !important; }
+  .cn-fs-25--lg {
+    font-size: 1.5625rem !important; }
+  .cn-fs-26--lg {
+    font-size: 1.625rem !important; }
+  .cn-fs-27--lg {
+    font-size: 1.6875rem !important; }
+  .cn-fs-28--lg {
+    font-size: 1.75rem !important; }
+  .cn-fs-29--lg {
+    font-size: 1.8125rem !important; }
+  .cn-fs-30--lg {
+    font-size: 1.875rem !important; }
+  .cn-fs-31--lg {
+    font-size: 1.9375rem !important; }
+  .cn-fs-32--lg {
+    font-size: 2rem !important; }
+  .cn-fs-33--lg {
+    font-size: 2.0625rem !important; }
+  .cn-fs-34--lg {
+    font-size: 2.125rem !important; }
+  .cn-fs-35--lg {
+    font-size: 2.1875rem !important; }
+  .cn-fs-36--lg {
+    font-size: 2.25rem !important; }
+  .cn-fs-37--lg {
+    font-size: 2.3125rem !important; }
+  .cn-fs-38--lg {
+    font-size: 2.375rem !important; }
+  .cn-fs-39--lg {
+    font-size: 2.4375rem !important; }
+  .cn-fs-40--lg {
+    font-size: 2.5rem !important; } }
+
+@media (max-width: 991px) {
+  .cn-fs-5--md {
+    font-size: 0.3125rem !important; }
+  .cn-fs-6--md {
+    font-size: 0.375rem !important; }
+  .cn-fs-7--md {
+    font-size: 0.4375rem !important; }
+  .cn-fs-8--md {
+    font-size: 0.5rem !important; }
+  .cn-fs-9--md {
+    font-size: 0.5625rem !important; }
+  .cn-fs-10--md {
+    font-size: 0.625rem !important; }
+  .cn-fs-11--md {
+    font-size: 0.6875rem !important; }
+  .cn-fs-12--md {
+    font-size: 0.75rem !important; }
+  .cn-fs-13--md {
+    font-size: 0.8125rem !important; }
+  .cn-fs-14--md {
+    font-size: 0.875rem !important; }
+  .cn-fs-15--md {
+    font-size: 0.9375rem !important; }
+  .cn-fs-16--md {
+    font-size: 1rem !important; }
+  .cn-fs-17--md {
+    font-size: 1.0625rem !important; }
+  .cn-fs-18--md {
+    font-size: 1.125rem !important; }
+  .cn-fs-19--md {
+    font-size: 1.1875rem !important; }
+  .cn-fs-20--md {
+    font-size: 1.25rem !important; }
+  .cn-fs-21--md {
+    font-size: 1.3125rem !important; }
+  .cn-fs-22--md {
+    font-size: 1.375rem !important; }
+  .cn-fs-23--md {
+    font-size: 1.4375rem !important; }
+  .cn-fs-24--md {
+    font-size: 1.5rem !important; }
+  .cn-fs-25--md {
+    font-size: 1.5625rem !important; }
+  .cn-fs-26--md {
+    font-size: 1.625rem !important; }
+  .cn-fs-27--md {
+    font-size: 1.6875rem !important; }
+  .cn-fs-28--md {
+    font-size: 1.75rem !important; }
+  .cn-fs-29--md {
+    font-size: 1.8125rem !important; }
+  .cn-fs-30--md {
+    font-size: 1.875rem !important; }
+  .cn-fs-31--md {
+    font-size: 1.9375rem !important; }
+  .cn-fs-32--md {
+    font-size: 2rem !important; }
+  .cn-fs-33--md {
+    font-size: 2.0625rem !important; }
+  .cn-fs-34--md {
+    font-size: 2.125rem !important; }
+  .cn-fs-35--md {
+    font-size: 2.1875rem !important; }
+  .cn-fs-36--md {
+    font-size: 2.25rem !important; }
+  .cn-fs-37--md {
+    font-size: 2.3125rem !important; }
+  .cn-fs-38--md {
+    font-size: 2.375rem !important; }
+  .cn-fs-39--md {
+    font-size: 2.4375rem !important; }
+  .cn-fs-40--md {
+    font-size: 2.5rem !important; } }
+
+@media (max-width: 767px) {
+  .cn-fs-5--sm {
+    font-size: 0.3125rem !important; }
+  .cn-fs-6--sm {
+    font-size: 0.375rem !important; }
+  .cn-fs-7--sm {
+    font-size: 0.4375rem !important; }
+  .cn-fs-8--sm {
+    font-size: 0.5rem !important; }
+  .cn-fs-9--sm {
+    font-size: 0.5625rem !important; }
+  .cn-fs-10--sm {
+    font-size: 0.625rem !important; }
+  .cn-fs-11--sm {
+    font-size: 0.6875rem !important; }
+  .cn-fs-12--sm {
+    font-size: 0.75rem !important; }
+  .cn-fs-13--sm {
+    font-size: 0.8125rem !important; }
+  .cn-fs-14--sm {
+    font-size: 0.875rem !important; }
+  .cn-fs-15--sm {
+    font-size: 0.9375rem !important; }
+  .cn-fs-16--sm {
+    font-size: 1rem !important; }
+  .cn-fs-17--sm {
+    font-size: 1.0625rem !important; }
+  .cn-fs-18--sm {
+    font-size: 1.125rem !important; }
+  .cn-fs-19--sm {
+    font-size: 1.1875rem !important; }
+  .cn-fs-20--sm {
+    font-size: 1.25rem !important; }
+  .cn-fs-21--sm {
+    font-size: 1.3125rem !important; }
+  .cn-fs-22--sm {
+    font-size: 1.375rem !important; }
+  .cn-fs-23--sm {
+    font-size: 1.4375rem !important; }
+  .cn-fs-24--sm {
+    font-size: 1.5rem !important; }
+  .cn-fs-25--sm {
+    font-size: 1.5625rem !important; }
+  .cn-fs-26--sm {
+    font-size: 1.625rem !important; }
+  .cn-fs-27--sm {
+    font-size: 1.6875rem !important; }
+  .cn-fs-28--sm {
+    font-size: 1.75rem !important; }
+  .cn-fs-29--sm {
+    font-size: 1.8125rem !important; }
+  .cn-fs-30--sm {
+    font-size: 1.875rem !important; }
+  .cn-fs-31--sm {
+    font-size: 1.9375rem !important; }
+  .cn-fs-32--sm {
+    font-size: 2rem !important; }
+  .cn-fs-33--sm {
+    font-size: 2.0625rem !important; }
+  .cn-fs-34--sm {
+    font-size: 2.125rem !important; }
+  .cn-fs-35--sm {
+    font-size: 2.1875rem !important; }
+  .cn-fs-36--sm {
+    font-size: 2.25rem !important; }
+  .cn-fs-37--sm {
+    font-size: 2.3125rem !important; }
+  .cn-fs-38--sm {
+    font-size: 2.375rem !important; }
+  .cn-fs-39--sm {
+    font-size: 2.4375rem !important; }
+  .cn-fs-40--sm {
+    font-size: 2.5rem !important; } }
+
+@media (max-width: 575px) {
+  .cn-fs-5--xs {
+    font-size: 0.3125rem !important; }
+  .cn-fs-6--xs {
+    font-size: 0.375rem !important; }
+  .cn-fs-7--xs {
+    font-size: 0.4375rem !important; }
+  .cn-fs-8--xs {
+    font-size: 0.5rem !important; }
+  .cn-fs-9--xs {
+    font-size: 0.5625rem !important; }
+  .cn-fs-10--xs {
+    font-size: 0.625rem !important; }
+  .cn-fs-11--xs {
+    font-size: 0.6875rem !important; }
+  .cn-fs-12--xs {
+    font-size: 0.75rem !important; }
+  .cn-fs-13--xs {
+    font-size: 0.8125rem !important; }
+  .cn-fs-14--xs {
+    font-size: 0.875rem !important; }
+  .cn-fs-15--xs {
+    font-size: 0.9375rem !important; }
+  .cn-fs-16--xs {
+    font-size: 1rem !important; }
+  .cn-fs-17--xs {
+    font-size: 1.0625rem !important; }
+  .cn-fs-18--xs {
+    font-size: 1.125rem !important; }
+  .cn-fs-19--xs {
+    font-size: 1.1875rem !important; }
+  .cn-fs-20--xs {
+    font-size: 1.25rem !important; }
+  .cn-fs-21--xs {
+    font-size: 1.3125rem !important; }
+  .cn-fs-22--xs {
+    font-size: 1.375rem !important; }
+  .cn-fs-23--xs {
+    font-size: 1.4375rem !important; }
+  .cn-fs-24--xs {
+    font-size: 1.5rem !important; }
+  .cn-fs-25--xs {
+    font-size: 1.5625rem !important; }
+  .cn-fs-26--xs {
+    font-size: 1.625rem !important; }
+  .cn-fs-27--xs {
+    font-size: 1.6875rem !important; }
+  .cn-fs-28--xs {
+    font-size: 1.75rem !important; }
+  .cn-fs-29--xs {
+    font-size: 1.8125rem !important; }
+  .cn-fs-30--xs {
+    font-size: 1.875rem !important; }
+  .cn-fs-31--xs {
+    font-size: 1.9375rem !important; }
+  .cn-fs-32--xs {
+    font-size: 2rem !important; }
+  .cn-fs-33--xs {
+    font-size: 2.0625rem !important; }
+  .cn-fs-34--xs {
+    font-size: 2.125rem !important; }
+  .cn-fs-35--xs {
+    font-size: 2.1875rem !important; }
+  .cn-fs-36--xs {
+    font-size: 2.25rem !important; }
+  .cn-fs-37--xs {
+    font-size: 2.3125rem !important; }
+  .cn-fs-38--xs {
+    font-size: 2.375rem !important; }
+  .cn-fs-39--xs {
+    font-size: 2.4375rem !important; }
+  .cn-fs-40--xs {
+    font-size: 2.5rem !important; } }

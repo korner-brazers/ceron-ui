@@ -1,0 +1,23 @@
+@import "utils";
+
+@mixin fontSize($media) {
+	.cn-fs{
+		@for $i from 5 through 40 {
+			$prx: $i * $spacer;
+			$siz: $i / 16 + rem;
+
+			&-#{$i}#{$media}{
+				font-size:  $siz !important;
+			}
+		}
+	}
+}
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		@include fontSize('Mx_#{$break}');
+	}
+	
+}

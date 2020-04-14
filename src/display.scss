@@ -1,0 +1,36 @@
+@import "utils";
+
+
+
+
+@mixin displayValue($media) {
+	&-bl#{$media}{
+		display: block !important;
+	}
+	&-in#{$media}{
+		display: inline !important;
+	}
+	&-ib#{$media}{
+		display: inline-block !important;
+	}
+	&-fx#{$media}{
+		display: flex !important;
+	}
+	&-gd#{$media}{
+		display: grid !important;
+	}
+	&-no#{$media}{
+		display: none !important;
+	}
+}
+
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		.cn-d{
+			@include displayValue('Mx_#{$break}');
+		}
+
+	}
+}

@@ -1,0 +1,121 @@
+@import "utils";
+
+@mixin font($media) {
+	.cn-f{
+		&a{
+			&-left#{$media}{
+				text-align: left !important;
+			}
+			&-center#{$media}{
+				text-align: center !important;
+			}
+			&-right#{$media}{
+				text-align: right !important;
+			}
+			&-justify#{$media}{
+				text-align: justify !important;
+			}
+		}
+
+		&f{
+			&-italic#{$media}{
+				font-style: italic !important;
+			}
+			&-normal#{$media}{
+				font-style: normal !important;
+			}
+		}
+
+		&t{
+			&-upper#{$media}{
+				text-transform: uppercase !important;
+			}
+			&-lower#{$media}{
+				text-transform: lowercase !important;
+			}
+			&-capitalize#{$media}{
+				text-transform: capitalize !important;
+			}
+			&-none#{$media}{
+				text-transform: none !important;
+			}
+		}
+
+		&c{
+			&-wrap#{$media}{
+				white-space: pre-wrap !important;
+			}
+			&-nowrap#{$media}{
+				white-space: nowrap !important;
+			}
+			&-normal#{$media}{
+				white-space: normal !important;
+			}
+		}
+		
+		&o{
+			&-clip#{$media}{
+				text-overflow: clip !important;
+			}
+			&-ellipsis#{$media}{
+				text-overflow:  ellipsis !important;
+			}
+			&-inherit#{$media}{
+				text-overflow: inherit !important;
+			}
+		}
+
+		&e{
+			&-through#{$media}{
+				text-decoration: line-through !important;
+			}
+			&-under#{$media}{
+				text-decoration: underline !important;
+			}
+			&-none#{$media}{
+				text-decoration: none !important;
+			}
+		}
+
+
+		&l{
+			@for $i from 1 through 12 {
+				$l: 1 + $i * 0.1;
+				$n: str-replace('#{$l}','.','');
+
+				&-#{$n}#{$media}{
+					line-height: $l !important;
+				}
+			}
+		}
+
+		&i{
+			@for $i from 0 through 9 {
+				$l: $i * 0.1;
+				$n: str-replace('#{$l}','.','');
+
+				&-#{$n}#{$media}{
+					letter-spacing: $l+rem !important;
+				}
+			}
+		}
+
+		&w{
+			@for $i from 1 through 9 {
+				$w: $i * 100;
+
+				&-#{$w}#{$media}{
+					font-weight: $w !important;
+				}
+			}
+		}
+	}
+}
+
+@each $break, $min, $max in $breakpoints_min_max {
+
+	@include mediaMinMax($min, $max){
+		@include font('Mx_#{$break}');
+	}
+	
+}
