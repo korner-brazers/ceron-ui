@@ -2,7 +2,7 @@
 
 @mixin fontSize($media) {
 	.cn-fs{
-		@for $i from 5 through 40 {
+		@for $i from 5 through 60 {
 			$prx: $i * $spacer;
 			$siz: $i / 16 + rem;
 

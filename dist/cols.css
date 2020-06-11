@@ -43,6 +43,28 @@
   margin-top: 0rem;
   margin-bottom: 0rem; }
 
+.cn-gutter-a-5 > * {
+  padding: 0.15625rem; }
+
+.cn-gutter-a-5 {
+  margin: -0.15625rem; }
+
+.cn-gutter-h-5 > * {
+  padding-left: 0.15625rem;
+  padding-right: 0.15625rem; }
+
+.cn-gutter-h-5 {
+  margin-left: -0.15625rem;
+  margin-right: -0.15625rem; }
+
+.cn-gutter-v-5 > * {
+  padding-top: 0.15625rem;
+  padding-bottom: 0.15625rem; }
+
+.cn-gutter-v-5 {
+  margin-top: -0.15625rem;
+  margin-bottom: -0.15625rem; }
+
 .cn-gutter-a-10 > * {
   padding: 0.3125rem; }
 
@@ -170,6 +192,22 @@
   .cn-gutter-v-0--xl {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--xl > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--xl {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--xl > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--xl {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--xl > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--xl {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--xl > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--xl {
@@ -268,6 +306,22 @@
   .cn-gutter-v-0--lg {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--lg > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--lg {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--lg > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--lg {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--lg > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--lg {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--lg > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--lg {
@@ -366,6 +420,22 @@
   .cn-gutter-v-0--md {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--md > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--md {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--md > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--md {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--md > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--md {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--md > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--md {
@@ -464,6 +534,22 @@
   .cn-gutter-v-0--sm {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--sm > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--sm {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--sm > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--sm {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--sm > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--sm {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--sm > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--sm {
@@ -562,6 +648,22 @@
   .cn-gutter-v-0--xs {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--xs > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--xs {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--xs > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--xs {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--xs > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--xs {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--xs > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--xs {

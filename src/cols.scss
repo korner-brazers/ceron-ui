@@ -70,6 +70,7 @@
 	@include mediaMinMax($min, $max){
 		.cn-gutter{
 			@include colsGutter(0, 0, 'Mx_#{$break}');
+			@include colsGutter(5, 2.5, 'Mx_#{$break}');
 			@include colsGutter(10, 5, 'Mx_#{$break}');
 			@include colsGutter(20, 10, 'Mx_#{$break}');
 			@include colsGutter(30, 15, 'Mx_#{$break}');

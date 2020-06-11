@@ -1,3 +1,8 @@
+/*!
+ * Ceron-UI v1.0.1 (https://github.com/korner-brazers/ceron-ui)
+ * Copyright 2020 Ceron.
+ * Licensed under MIT (https://github.com/korner-brazers/ceron-ui/blob/master/LICENSE)
+ */
 .cn-container {
   width: 100%;
   padding-right: 15px;
@@ -72,6 +77,28 @@
 .cn-gutter-v-0 {
   margin-top: 0rem;
   margin-bottom: 0rem; }
+
+.cn-gutter-a-5 > * {
+  padding: 0.15625rem; }
+
+.cn-gutter-a-5 {
+  margin: -0.15625rem; }
+
+.cn-gutter-h-5 > * {
+  padding-left: 0.15625rem;
+  padding-right: 0.15625rem; }
+
+.cn-gutter-h-5 {
+  margin-left: -0.15625rem;
+  margin-right: -0.15625rem; }
+
+.cn-gutter-v-5 > * {
+  padding-top: 0.15625rem;
+  padding-bottom: 0.15625rem; }
+
+.cn-gutter-v-5 {
+  margin-top: -0.15625rem;
+  margin-bottom: -0.15625rem; }
 
 .cn-gutter-a-10 > * {
   padding: 0.3125rem; }
@@ -200,6 +227,22 @@
   .cn-gutter-v-0--xl {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--xl > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--xl {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--xl > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--xl {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--xl > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--xl {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--xl > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--xl {
@@ -298,6 +341,22 @@
   .cn-gutter-v-0--lg {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--lg > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--lg {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--lg > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--lg {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--lg > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--lg {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--lg > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--lg {
@@ -396,6 +455,22 @@
   .cn-gutter-v-0--md {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--md > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--md {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--md > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--md {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--md > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--md {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--md > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--md {
@@ -494,6 +569,22 @@
   .cn-gutter-v-0--sm {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--sm > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--sm {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--sm > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--sm {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--sm > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--sm {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--sm > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--sm {
@@ -592,6 +683,22 @@
   .cn-gutter-v-0--xs {
     margin-top: 0rem;
     margin-bottom: 0rem; }
+  .cn-gutter-a-5--xs > * {
+    padding: 0.15625rem; }
+  .cn-gutter-a-5--xs {
+    margin: -0.15625rem; }
+  .cn-gutter-h-5--xs > * {
+    padding-left: 0.15625rem;
+    padding-right: 0.15625rem; }
+  .cn-gutter-h-5--xs {
+    margin-left: -0.15625rem;
+    margin-right: -0.15625rem; }
+  .cn-gutter-v-5--xs > * {
+    padding-top: 0.15625rem;
+    padding-bottom: 0.15625rem; }
+  .cn-gutter-v-5--xs {
+    margin-top: -0.15625rem;
+    margin-bottom: -0.15625rem; }
   .cn-gutter-a-10--xs > * {
     padding: 0.3125rem; }
   .cn-gutter-a-10--xs {
@@ -2744,6 +2851,66 @@
 .cn-fs-40 {
   font-size: 2.5rem !important; }
 
+.cn-fs-41 {
+  font-size: 2.5625rem !important; }
+
+.cn-fs-42 {
+  font-size: 2.625rem !important; }
+
+.cn-fs-43 {
+  font-size: 2.6875rem !important; }
+
+.cn-fs-44 {
+  font-size: 2.75rem !important; }
+
+.cn-fs-45 {
+  font-size: 2.8125rem !important; }
+
+.cn-fs-46 {
+  font-size: 2.875rem !important; }
+
+.cn-fs-47 {
+  font-size: 2.9375rem !important; }
+
+.cn-fs-48 {
+  font-size: 3rem !important; }
+
+.cn-fs-49 {
+  font-size: 3.0625rem !important; }
+
+.cn-fs-50 {
+  font-size: 3.125rem !important; }
+
+.cn-fs-51 {
+  font-size: 3.1875rem !important; }
+
+.cn-fs-52 {
+  font-size: 3.25rem !important; }
+
+.cn-fs-53 {
+  font-size: 3.3125rem !important; }
+
+.cn-fs-54 {
+  font-size: 3.375rem !important; }
+
+.cn-fs-55 {
+  font-size: 3.4375rem !important; }
+
+.cn-fs-56 {
+  font-size: 3.5rem !important; }
+
+.cn-fs-57 {
+  font-size: 3.5625rem !important; }
+
+.cn-fs-58 {
+  font-size: 3.625rem !important; }
+
+.cn-fs-59 {
+  font-size: 3.6875rem !important; }
+
+.cn-fs-60 {
+  font-size: 3.75rem !important; }
+
 @media (max-width: 1450px) {
   .cn-fs-5--xl {
     font-size: 0.3125rem !important; }
@@ -2816,7 +2983,47 @@
   .cn-fs-39--xl {
     font-size: 2.4375rem !important; }
   .cn-fs-40--xl {
-    font-size: 2.5rem !important; } }
+    font-size: 2.5rem !important; }
+  .cn-fs-41--xl {
+    font-size: 2.5625rem !important; }
+  .cn-fs-42--xl {
+    font-size: 2.625rem !important; }
+  .cn-fs-43--xl {
+    font-size: 2.6875rem !important; }
+  .cn-fs-44--xl {
+    font-size: 2.75rem !important; }
+  .cn-fs-45--xl {
+    font-size: 2.8125rem !important; }
+  .cn-fs-46--xl {
+    font-size: 2.875rem !important; }
+  .cn-fs-47--xl {
+    font-size: 2.9375rem !important; }
+  .cn-fs-48--xl {
+    font-size: 3rem !important; }
+  .cn-fs-49--xl {
+    font-size: 3.0625rem !important; }
+  .cn-fs-50--xl {
+    font-size: 3.125rem !important; }
+  .cn-fs-51--xl {
+    font-size: 3.1875rem !important; }
+  .cn-fs-52--xl {
+    font-size: 3.25rem !important; }
+  .cn-fs-53--xl {
+    font-size: 3.3125rem !important; }
+  .cn-fs-54--xl {
+    font-size: 3.375rem !important; }
+  .cn-fs-55--xl {
+    font-size: 3.4375rem !important; }
+  .cn-fs-56--xl {
+    font-size: 3.5rem !important; }
+  .cn-fs-57--xl {
+    font-size: 3.5625rem !important; }
+  .cn-fs-58--xl {
+    font-size: 3.625rem !important; }
+  .cn-fs-59--xl {
+    font-size: 3.6875rem !important; }
+  .cn-fs-60--xl {
+    font-size: 3.75rem !important; } }
 
 @media (max-width: 1199px) {
   .cn-fs-5--lg {
@@ -2890,7 +3097,47 @@
   .cn-fs-39--lg {
     font-size: 2.4375rem !important; }
   .cn-fs-40--lg {
-    font-size: 2.5rem !important; } }
+    font-size: 2.5rem !important; }
+  .cn-fs-41--lg {
+    font-size: 2.5625rem !important; }
+  .cn-fs-42--lg {
+    font-size: 2.625rem !important; }
+  .cn-fs-43--lg {
+    font-size: 2.6875rem !important; }
+  .cn-fs-44--lg {
+    font-size: 2.75rem !important; }
+  .cn-fs-45--lg {
+    font-size: 2.8125rem !important; }
+  .cn-fs-46--lg {
+    font-size: 2.875rem !important; }
+  .cn-fs-47--lg {
+    font-size: 2.9375rem !important; }
+  .cn-fs-48--lg {
+    font-size: 3rem !important; }
+  .cn-fs-49--lg {
+    font-size: 3.0625rem !important; }
+  .cn-fs-50--lg {
+    font-size: 3.125rem !important; }
+  .cn-fs-51--lg {
+    font-size: 3.1875rem !important; }
+  .cn-fs-52--lg {
+    font-size: 3.25rem !important; }
+  .cn-fs-53--lg {
+    font-size: 3.3125rem !important; }
+  .cn-fs-54--lg {
+    font-size: 3.375rem !important; }
+  .cn-fs-55--lg {
+    font-size: 3.4375rem !important; }
+  .cn-fs-56--lg {
+    font-size: 3.5rem !important; }
+  .cn-fs-57--lg {
+    font-size: 3.5625rem !important; }
+  .cn-fs-58--lg {
+    font-size: 3.625rem !important; }
+  .cn-fs-59--lg {
+    font-size: 3.6875rem !important; }
+  .cn-fs-60--lg {
+    font-size: 3.75rem !important; } }
 
 @media (max-width: 991px) {
   .cn-fs-5--md {
@@ -2964,7 +3211,47 @@
   .cn-fs-39--md {
     font-size: 2.4375rem !important; }
   .cn-fs-40--md {
-    font-size: 2.5rem !important; } }
+    font-size: 2.5rem !important; }
+  .cn-fs-41--md {
+    font-size: 2.5625rem !important; }
+  .cn-fs-42--md {
+    font-size: 2.625rem !important; }
+  .cn-fs-43--md {
+    font-size: 2.6875rem !important; }
+  .cn-fs-44--md {
+    font-size: 2.75rem !important; }
+  .cn-fs-45--md {
+    font-size: 2.8125rem !important; }
+  .cn-fs-46--md {
+    font-size: 2.875rem !important; }
+  .cn-fs-47--md {
+    font-size: 2.9375rem !important; }
+  .cn-fs-48--md {
+    font-size: 3rem !important; }
+  .cn-fs-49--md {
+    font-size: 3.0625rem !important; }
+  .cn-fs-50--md {
+    font-size: 3.125rem !important; }
+  .cn-fs-51--md {
+    font-size: 3.1875rem !important; }
+  .cn-fs-52--md {
+    font-size: 3.25rem !important; }
+  .cn-fs-53--md {
+    font-size: 3.3125rem !important; }
+  .cn-fs-54--md {
+    font-size: 3.375rem !important; }
+  .cn-fs-55--md {
+    font-size: 3.4375rem !important; }
+  .cn-fs-56--md {
+    font-size: 3.5rem !important; }
+  .cn-fs-57--md {
+    font-size: 3.5625rem !important; }
+  .cn-fs-58--md {
+    font-size: 3.625rem !important; }
+  .cn-fs-59--md {
+    font-size: 3.6875rem !important; }
+  .cn-fs-60--md {
+    font-size: 3.75rem !important; } }
 
 @media (max-width: 767px) {
   .cn-fs-5--sm {
@@ -3038,7 +3325,47 @@
   .cn-fs-39--sm {
     font-size: 2.4375rem !important; }
   .cn-fs-40--sm {
-    font-size: 2.5rem !important; } }
+    font-size: 2.5rem !important; }
+  .cn-fs-41--sm {
+    font-size: 2.5625rem !important; }
+  .cn-fs-42--sm {
+    font-size: 2.625rem !important; }
+  .cn-fs-43--sm {
+    font-size: 2.6875rem !important; }
+  .cn-fs-44--sm {
+    font-size: 2.75rem !important; }
+  .cn-fs-45--sm {
+    font-size: 2.8125rem !important; }
+  .cn-fs-46--sm {
+    font-size: 2.875rem !important; }
+  .cn-fs-47--sm {
+    font-size: 2.9375rem !important; }
+  .cn-fs-48--sm {
+    font-size: 3rem !important; }
+  .cn-fs-49--sm {
+    font-size: 3.0625rem !important; }
+  .cn-fs-50--sm {
+    font-size: 3.125rem !important; }
+  .cn-fs-51--sm {
+    font-size: 3.1875rem !important; }
+  .cn-fs-52--sm {
+    font-size: 3.25rem !important; }
+  .cn-fs-53--sm {
+    font-size: 3.3125rem !important; }
+  .cn-fs-54--sm {
+    font-size: 3.375rem !important; }
+  .cn-fs-55--sm {
+    font-size: 3.4375rem !important; }
+  .cn-fs-56--sm {
+    font-size: 3.5rem !important; }
+  .cn-fs-57--sm {
+    font-size: 3.5625rem !important; }
+  .cn-fs-58--sm {
+    font-size: 3.625rem !important; }
+  .cn-fs-59--sm {
+    font-size: 3.6875rem !important; }
+  .cn-fs-60--sm {
+    font-size: 3.75rem !important; } }
 
 @media (max-width: 575px) {
   .cn-fs-5--xs {
@@ -3112,7 +3439,47 @@
   .cn-fs-39--xs {
     font-size: 2.4375rem !important; }
   .cn-fs-40--xs {
-    font-size: 2.5rem !important; } }
+    font-size: 2.5rem !important; }
+  .cn-fs-41--xs {
+    font-size: 2.5625rem !important; }
+  .cn-fs-42--xs {
+    font-size: 2.625rem !important; }
+  .cn-fs-43--xs {
+    font-size: 2.6875rem !important; }
+  .cn-fs-44--xs {
+    font-size: 2.75rem !important; }
+  .cn-fs-45--xs {
+    font-size: 2.8125rem !important; }
+  .cn-fs-46--xs {
+    font-size: 2.875rem !important; }
+  .cn-fs-47--xs {
+    font-size: 2.9375rem !important; }
+  .cn-fs-48--xs {
+    font-size: 3rem !important; }
+  .cn-fs-49--xs {
+    font-size: 3.0625rem !important; }
+  .cn-fs-50--xs {
+    font-size: 3.125rem !important; }
+  .cn-fs-51--xs {
+    font-size: 3.1875rem !important; }
+  .cn-fs-52--xs {
+    font-size: 3.25rem !important; }
+  .cn-fs-53--xs {
+    font-size: 3.3125rem !important; }
+  .cn-fs-54--xs {
+    font-size: 3.375rem !important; }
+  .cn-fs-55--xs {
+    font-size: 3.4375rem !important; }
+  .cn-fs-56--xs {
+    font-size: 3.5rem !important; }
+  .cn-fs-57--xs {
+    font-size: 3.5625rem !important; }
+  .cn-fs-58--xs {
+    font-size: 3.625rem !important; }
+  .cn-fs-59--xs {
+    font-size: 3.6875rem !important; }
+  .cn-fs-60--xs {
+    font-size: 3.75rem !important; } }
 
 .cn-move-0_1 {
   margin-left: 0%; }
